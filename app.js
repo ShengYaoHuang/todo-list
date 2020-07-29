@@ -2,7 +2,6 @@ const express = require('express')
 const exphbs = require('express-handlebars')
 const bodyParser = require('body-parser')
 const app = express()
-const Todo = require('./models/todo')
 const methodOverride = require('method-override')
 const routes = require('./routes') // 引用路由器
 
