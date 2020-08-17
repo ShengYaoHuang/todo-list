@@ -18,7 +18,7 @@ router.post('/', (req, res) => {
   // const todo = new Todo({ name }) 
   // return todo.save() 將該實例存入資料庫
   //   .then(() => res.redirect('/))
-  //   .catch(error => console,log(error))
+  //   .catch(error => console.log(error))
 })
 
 router.get('/:id', (req, res) => {
